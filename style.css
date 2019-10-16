@@ -33,6 +33,44 @@ h1 {
     font-size: 2.3rem;
 }
 
+.edit {
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.edit-skill {
+    padding: 10px 15px;
+}
+
+/* Form */
+form {
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto;
+    background: rgb(112, 109, 109);
+    border-radius: 10px;
+}
+
+form.hide {
+    display: none;
+}
+
+.form-group {
+    margin: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type='submit'] {
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
 .profile {
     width: 300px;
     height: 300px;
@@ -63,7 +101,7 @@ h1 {
 
 .skills-info {
     width: 50%;
-    margin: auto;
+    margin: 20px auto;
     font-size: 25px;
 }
 
@@ -74,6 +112,15 @@ h1 {
 .skills-info ul li {
     font-size: 20px;
 }
+
+.skill-items li i{
+    opacity: 0;
+}
+
+.skill-items li:hover i{
+    opacity: 1;
+}
+
 
 #timeline .education {
     margin: 20px 0 0;
@@ -187,7 +234,7 @@ h1 {
         height: 200px;
     }
 
-    .name {
+    .fullname {
         font-size: 2rem;
     }
 
